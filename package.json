@@ -1,0 +1,22 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurucharan-V/devTinder.git"
+  },
+  "author": "gc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurucharan-V/devTinder/issues"
+  },
+  "homepage": "https://github.com/Gurucharan-V/devTinder#readme"
+}
