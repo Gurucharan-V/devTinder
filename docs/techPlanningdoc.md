@@ -27,6 +27,21 @@
 
 
 
+****API will we Need?****
+**1. POST /signUp
+2. POST /login
+3. GET /profile
+4. POST /profile
+5. PUT /profile
+6. DELETE /profile
+7. POST /sendRequest
+8. POST /ignoreRequest
+9. GET /reviewRequest
+10. GET /requestStatus
+11. GET /connections**
+
+
+
 
   
    
