@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Gurucharan-V/devTinder/issues"
   },
-  "homepage": "https://github.com/Gurucharan-V/devTinder#readme"
+  "homepage": "https://github.com/Gurucharan-V/devTinder#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
