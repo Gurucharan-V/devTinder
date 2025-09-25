@@ -7,10 +7,17 @@ app.use((req, res, next) => {
     next();
   });
   
-app.get("/", (req,res) => res.send("this is page"));
-app.get("/home", (req,res) => res.send("this is home page"));
-app.get("/test", (req,res) => res.send("this is test page"));
+app.get("/", (req,res) => r{
+    es.send("this is page")
+});
 
+app.get("/home", (req,res) => {
+    res.send("this is home page")
+});
+
+app.get("/test", (req,res) => {
+    res.send("this is test page")
+});
 
 
 app.listen(port, ()=> {
