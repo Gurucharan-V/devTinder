@@ -1,14 +1,19 @@
 import express from "express";
 const app = express();
-const port = 3000;
+const port = 7777;
 
-app.use("/test",(req,res)=>{
-    res.send("you are in test page");
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`);
     next();
-})
-app.use("/",(req,res)=>{
-    res.send("you are in home page");
-})
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+  });
+  
+app.get("/", (req,res) => res.send("this is page"));
+app.get("/home", (req,res) => res.send("this is home page"));
+app.get("/test", (req,res) => res.send("this is test page"));
+
+
+
+app.listen(port, ()=> {
+    console.log(`on port ${port}`)
+    });
+  
